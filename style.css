@@ -1,0 +1,170 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+body {
+    background-color: black;
+}
+
+
+.red {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,0,0,1) 39%, rgba(207,48,140,1) 100%);
+    left: 0;
+    z-index: 1;
+}
+
+.red:hover {
+    left: 500px;
+}
+
+.yellow {
+
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    left: 500px;
+}
+
+.greenyellow {
+    width: 300px;
+    height: 700px;
+    background-color: greenyellow;
+    top: 500px;
+}
+
+.purple {
+    width: 600px;
+    height: 200px;
+    background-color:purple;
+    left: 700px;
+}
+
+.orange {
+    width: 300px;
+    height: 500px;
+    background-color: orange;
+    top: 200px;
+    left: 500px;
+    animation: eee 1s infinite alternate;
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    top: 500px;
+    left: 300px;
+}
+.pink{
+    width: 500px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(251,241,63,1) 0%, rgba(252,70,231,1) 100%);
+    top: 200px;
+    left: 800px;
+}
+.salmon{
+    width: 300px;
+    height: 500px;
+    background-color:salmon;
+    top: 700px;
+    left: 300px;
+}
+.papayawhip {
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    top: 700px;
+    left: 600px;
+}
+
+.papayawhip:hover {
+top: 500px;
+}
+.green {
+    width: 200px;
+    height: 500px;
+    background-color: green;
+    left: 1300px;
+}
+
+.lightgrey{
+    width: 300px;
+    height: 300px;
+    background-color:lightgrey;
+    left: 1500px;
+    animation: eee 1s infinite alternate;
+}
+.brown {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+    left: 1500px;
+    top: 300px;
+}
+.mediumturquoise {
+    width: 400px;
+    height: 700px;
+    background-color: mediumturquoise;
+    left: 1300px;
+    top: 500px;
+    z-index: 2;
+}
+
+.mediumturquoise:hover {
+    left: 900px;
+}
+.slateblue {
+    width: 100px;
+    height: 400px;
+    background-color: slateblue;
+    left: 1700px;
+    top: 500px;
+}
+.yellowgreen {
+    width: 100px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(146,233,16,1) 31%, rgba(48,197,207,1) 100%);
+    left: 1700px;
+    top: 900px;
+}
+.darkred{
+    width: 500px;
+    height: 200px;
+    background-color:darkred;
+    top: 900px;
+    left: 600px;
+    animation: eee 1s infinite alternate;
+}
+.lightsalmon{
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    top: 900px;
+    left: 1100px;
+}
+.yellow2{
+    width: 700px;
+    height: 100px;
+    background-color:yellow;
+    top: 1100px;
+    left: 600px;
+}
+
+
+@keyframes eee {
+    from { 
+        filter: blur(1px);
+
+    } to{
+        filter: blur(60px);
+
+    }
+}
